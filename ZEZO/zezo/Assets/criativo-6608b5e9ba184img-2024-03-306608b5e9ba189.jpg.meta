@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 63f9426efeee1a545a4d820148e28c6a
+guid: 396880af2a1f23748b916a4626c4693d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1358487904765896576
-    second: 22956-zezo-imagem-programacao_0
+      213: -5409450807767208833
+    second: criativo-6608b5e9ba184img-2024-03-306608b5e9ba189_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 22956-zezo-imagem-programacao_0
+      name: criativo-6608b5e9ba184img-2024-03-306608b5e9ba189_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 510
-        height: 310
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0876c334d815ad210800000000000000
-      internalID: 1358487904765896576
+      spriteID: f7ce51d9625cde4b0800000000000000
+      internalID: -5409450807767208833
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      22956-zezo-imagem-programacao_0: 1358487904765896576
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
