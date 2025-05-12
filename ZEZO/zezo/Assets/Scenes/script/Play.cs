@@ -3,10 +3,12 @@ using UnityEngine;
 public class Play : MonoBehaviour
 {
     private int numero;
-    public fleat velocidade = 40;
+    public float velocidade = 40;
+
     void Start()
     {
-        numero = 0; 
+        numero = 0;
+        
     }
 
     void Update()
@@ -15,6 +17,20 @@ public class Play : MonoBehaviour
 
 //numero = numero +1;
 
-        if (input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
+
+        {
+            gameObject.transform.position += new Vector3(-velocidade * Time.deltaTime, 0, 0);
+
+        }
+
+        if (Input.GetKey(KeyCode.D))
+
+        
+            gameObject.transform.position +=new Vector3(+velocidade *Time.deltaTime, 0, 0);
     }
-    gameObject.transform.position += new Vector3(velocidade,0,0);
+
+    
+}
+    
+        
