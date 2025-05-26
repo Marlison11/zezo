@@ -1,4 +1,8 @@
 using UnityEngine;
+using ForceMode2D = UnityEngine.ForceMode2D;
+using Mathf = UnityEngine.Mathf;
+using MonoBehaviour = UnityEngine.MonoBehaviour;
+using Vector2 = UnityEngine.Vector2;
 
 public class Play : MonoBehaviour
 {
@@ -32,5 +36,3 @@ public class Play : MonoBehaviour
 
     
 }
-    
-        
