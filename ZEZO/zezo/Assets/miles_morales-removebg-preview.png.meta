@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c57acc238e0b10d4aadfbfcc77eeff4f
+guid: cd413e43fed70ec45900d9647e3ff55d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3613543399442714523
-    second: criativo-6608b5e9ba184img-2024-03-306608b5e9ba189-removebg-preview (1)_0
+      213: -5686459630775719706
+    second: miles_morales-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: criativo-6608b5e9ba184img-2024-03-306608b5e9ba189-removebg-preview (1)_0
+      name: miles_morales-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 84
-        width: 367
-        height: 345
+        x: 54
+        y: 16
+        width: 117
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9f8d309392e52230800000000000000
-      internalID: 3613543399442714523
+      spriteID: 6e8a30e0813a511b0800000000000000
+      internalID: -5686459630775719706
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      criativo-6608b5e9ba184img-2024-03-306608b5e9ba189-removebg-preview (1)_0: 3613543399442714523
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
