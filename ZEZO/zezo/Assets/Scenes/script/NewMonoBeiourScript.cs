@@ -1,32 +1,33 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    public float jumpForce = 5f;      // Força do pulo
-    private Rigidbody rb;
-    private bool isGrounded;
+    public float moveSpeed = 5f;
+    private Rigidbody2D rb;
+    private Vector2 movement;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        // Verifica se o personagem está no chão e apertou espaço
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
-        }
+        // Input de movimento
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        // Flipar o personagem se estiver se movendo horizontalmente
+        if (movement.x < 0)
+            spriteRenderer.flipX = true;  // Virar para a esquerda
+        else if (movement.x > 0)
+            spriteRenderer.flipX = false; // Virar para a direita
     }
 
-    // Detecta colisão com o chão para permitir pulo novamente
-    private void OnCollisionEnter(Collision collision)
+    void FixedUpdate()
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-        }
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
